@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  background-color: #df803e;
+}
+
+.mein {
+  background-image: url(../static/imgs/img/Polygon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 810px;
+}
+
+.nav_list {
+  width: 1158px;
+  height: 59px;
+  padding: 14px 0px 14px 88px;
+  display: flex;
+  justify-content: left;
+  list-style: none;
+}
+
+hr {
+  background-color: white;
+  border: none;
+  height: 2px;
+}
+
+.nav_list li a {
+  text-decoration: none;
+  color: #000000;
+  padding-right: 20px;
+  font-size: 26px;
+}
+
+.social_networks {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  width: 172px;
+  height: 40px;
+  padding: 22px 100px 0px 0px;
+  margin: 0;
+}
+
+.social li {
+  padding-left: 8px;
+}
+
+.mein_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img_giraffe {
+  justify-content: right;
+}
+
+.giraffe {
+  height: 450px;
+  padding-top: 40px;
+}
+
+.title {
+  font-family: Bookman Old;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 105.64px;
+  text-align: center;
+}
+
+.description {
+  font-family: Bookman Old Style;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 65px;
+  text-align: left;
+  width: 600px;
+}
+
+.consultation {
+  width: 300px;
+  height: 70px;
+  position: relative;
+  padding: 20px 42px 20px 42px;
+  border-radius: 10px;
+  border: none;
+  background: #fcfcfc;
+  font-family: serif;
+  font-size: 1.2em;
+}
+
+.about_us {
+  background-color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.about_us-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_us-title {
+  padding-top: 60px;
+  padding-right: 310px;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 65px;
+}
+
+.about_us-text {
+  font-size: 31px;
+  color: #df803e;
+  padding-right: 200px;
+  padding-top: 60px;
+}
+
+.card_blok {
+  padding-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: #000000 3px solid;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lessons {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.lessons_tex {
+  font-size: 1.5em;
+  color: #ffffff;
+  position: relative;
+  left: 150px;
+  top: 130px;
+}
+
+.icons_title {
+  font-size: 30px;
+  line-height: 1.2em;
+  position: relative;
+  left: 80px;
+}
+
+.icons_list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-bord {
+  width: 500px;
+}
+
+.list-offer {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ 
+}
+
+.list-offer li{
+  /* height: 50px; */
+}
+
+.list-offer img[src*="circle"]{
+  width: 50px;
+}
+
+.list-offer p{
+  margin: 0;
+font-size: 20px;
+padding-left: 30px;
+}
+
+.list-offer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vector{
+  width: 500px;
+  height: 3px;
+}
+
+.item_wraper{
+  display: flex;
+  align-items: center;
+}
+
+.giraffe-left img {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 170px;
+  left: 30px;
+}
+
+.giraffe-right img {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 170px;
+  right: 30px;
+}
+
+hr {
+  background-color: #000000;
+  height: 3px;
+  width: 100%;
+}
+
+.application {
+  border: #000000 solid 2px;
+  background-color: #df803e;
+  left: 120px;
+  margin-top: 30px;
+}
+
+.application:hover {
+  background-color: #fcfcfc;
+  border: none;
+}

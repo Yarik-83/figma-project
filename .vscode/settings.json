@@ -1,0 +1,10 @@
+{
+    "editor.bracketPairColorization.enabled": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "interactiveWindow.showExecutionHint": true,
+    "workbench.editor.empty.hint": "text",
+    "terminal.integrated.initialHint": true,
+    "accessibility.verbosity.emptyEditorHint": true,
+    "accessibility.verbosity.replInputHint": true
+}
